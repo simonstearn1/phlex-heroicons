@@ -3,7 +3,7 @@
 # rubocop:disable Lint/MissingSuper
 module Phlex
   module Heroicons
-    class Base < Phlex::View
+    class Base < Phlex::HTML
       attr_reader :variant, :classes
 
       def initialize(variant: Phlex::Heroicons.config.default_variant, classes: Phlex::Heroicons.config.default_class)
